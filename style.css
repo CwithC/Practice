@@ -1,0 +1,98 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif; 
+}
+
+a {
+    color: rgb(68, 1, 177)
+}
+
+a:hover {
+    color: hotpink;
+  }
+
+  .heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: hotpink;
+    transform: rotate(-45deg);
+    height: 180px;
+    width: 180px;
+  }
+
+  .heart::after {
+    background-color: rgb(255, 140, 197);
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 0px;
+    left: 87.5px;
+  }
+
+  .heart::before {
+    content: "";
+    background-color: rgb(255, 140, 197);
+    border-radius: 50%;
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    top: -87.5px;
+    left: 0px;
+    animation-name: color;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  }
+
+#about-swift{
+    text-indent: 60px;
+    color: rgb(39, 1, 136);  
+}
+
+#merch{
+    text-decoration-color: blanchedalmond;
+}
+
+.card-holder {
+    margin: 2em 0;
+  }
+
+.card {
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    height: 4em;
+    width: 64em;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    display: table-cell;
+    vertical-align: middle;
+    letter-spacing: -2px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+.bg-nav {
+    color: #fff;
+    background: -webkit-linear-gradient(50deg, #171717 30%, rgba(0, 0, 0, 0) 30%), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXdtpNb1hK1jbPel7x5-nqFFXefXd3mZAY6hB9rs39pDl2LoqSmovtW5anqgHky2GgTaw&usqp=CAU');
+    background: -o-linear-gradient(50deg, #171717 30%, rgba(0, 0, 0, 0) 30%), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXdtpNb1hK1jbPel7x5-nqFFXefXd3mZAY6hB9rs39pDl2LoqSmovtW5anqgHky2GgTaw&usqp=CAU');
+    background: -moz-linear-gradient(50deg, #171717 30%, rgba(0, 0, 0, 0) 30%), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXdtpNb1hK1jbPel7x5-nqFFXefXd3mZAY6hB9rs39pDl2LoqSmovtW5anqgHky2GgTaw&usqp=CAU');
+    background: linear-gradient(50deg, #171717 30%, rgba(0, 0, 0, 0) 30%), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXdtpNb1hK1jbPel7x5-nqFFXefXd3mZAY6hB9rs39pDl2LoqSmovtW5anqgHky2GgTaw&usqp=CAU');
+    background-size: contain;
+    background-position: 50% 10%;
+    text-indent: 20px;
+}
+
+.bg-merch {
+    color: #fff;
+    background: -webkit-linear-gradient(50deg, #171717 30%, rgba(0, 0, 0, 0) 30%), url('https://www.cnet.com/a/img/resize/8b7f6d486ad00fd8b3efa14d9a7e6d993f5dbc92/2017/08/30/8f308b62-689f-4c86-9c33-897b4a04d0a0/taylor-swift-reputation-art-2017-billboard-1548.jpg?auto=webp&fit=crop&height=488&width=868');
+    background: -o-linear-gradient(50deg, #171717 30%, rgba(0, 0, 0, 0) 30%), url('https://www.cnet.com/a/img/resize/8b7f6d486ad00fd8b3efa14d9a7e6d993f5dbc92/2017/08/30/8f308b62-689f-4c86-9c33-897b4a04d0a0/taylor-swift-reputation-art-2017-billboard-1548.jpg?auto=webp&fit=crop&height=488&width=868');
+    background: -moz-linear-gradient(50deg, #171717 30%, rgba(0, 0, 0, 0) 30%), url('https://www.cnet.com/a/img/resize/8b7f6d486ad00fd8b3efa14d9a7e6d993f5dbc92/2017/08/30/8f308b62-689f-4c86-9c33-897b4a04d0a0/taylor-swift-reputation-art-2017-billboard-1548.jpg?auto=webp&fit=crop&height=488&width=868');
+    background: linear-gradient(50deg, #171717 30%, rgba(0, 0, 0, 0) 30%), url('https://www.cnet.com/a/img/resize/8b7f6d486ad00fd8b3efa14d9a7e6d993f5dbc92/2017/08/30/8f308b62-689f-4c86-9c33-897b4a04d0a0/taylor-swift-reputation-art-2017-billboard-1548.jpg?auto=webp&fit=crop&height=488&width=868');
+    background-size: cover;
+    background-position: 50% 10%;
+    text-indent: 20px;
+}
