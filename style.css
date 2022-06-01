@@ -11,6 +11,16 @@ a:link {
     text-decoration: none;
 }
 
+.t-nav a {
+    display: block;
+    padding: 16px 8px;
+    width: 600px;
+}
+
+ul {
+    list-style-type: none;
+}
+
 a:hover {
     color: hotpink;
   }
@@ -55,7 +65,7 @@ a:hover {
 
 #about-swift{
     text-indent: 60px;
-    color: rgb(255, 0, 0);  
+    color: rgb(243, 243, 244);  
 }
 
 #merch{
