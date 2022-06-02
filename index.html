@@ -15,13 +15,14 @@
             <div class="card bg-nav">
                 <section>
                     <nav>
-                        <ul class="nav-li">
-                            <li><a href="heart" span class="hearticon"></span></a></li>
-                            <li><a href="https://www.biography.com/musician/taylor-swift">Biography</a></li>
-                            <li><a href="#merch">Shop</a></li>
-                            <li><a href="#albums">Albums & films</a></li><br>
-                            <!--  <img class="image image-nav" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXdtpNb1hK1jbPel7x5-nqFFXefXd3mZAY6hB9rs39pDl2LoqSmovtW5anqgHky2GgTaw&usqp=CAU" alt="Taylor Swift in Concert"> -->
-                        </ul>
+                        <div class="nav-list">
+                            <ul>
+                                <a href="https://www.biography.com/musician/taylor-swift">Biography</a></li>
+                                <a href="#merch">Shop</a></li>
+                                <a href="#albums">Albums & films</a></li><br>
+                                <img src="heart" alt="">
+                            </ul>
+                        </div>
                     </nav>
                 </section>  
             </div>
@@ -30,11 +31,16 @@
         <div class="heart"></div>
                 
 
-        <div class="intro">
+      
             <section class="about-swift">
                 <h1>Taylor Swift</h1>
-                <p><strong>Taylor Alison Swift</strong> (born December 13, 1989) is an American singer-songwriter. Her <a href="https://en.wikipedia.org/wiki/Taylor_Swift_albums_discography">discography</a> spans multiple genres, and her narrative songwriting—often inspired by her personal life—has received critical praise and widespread media coverage.<br> Born in West Reading, Pennsylvania, Swift relocated to Nashville, Tennessee, at the age of 14 to pursue a career in <a href="https://en.wikipedia.org/wiki/Country_music">country music</a>. She signed a songwriting contract with Sony/ATV Music Publishing in 2004 and a recording deal with Big Machine Records in 2005, before releasing her eponymous debut studio album in 2006.</p>
-                <p>Swift explored <u>country pop</u> on the albums Fearless (2008) and Speak Now (2010); the success of the singles <q>Love Story</q> and <q>You Belong with Me</q> on both country and pop radio established her as a leading crossover artist. She experimented with rock and electronic genres on her fourth studio album, Red (2012), supported by the singles <q><i>We Are Never Ever Getting Back Together</i></q> and <q><i>I Knew You Were Trouble</i></q>. Swift eschewed country on her synth-pop album 1989 (2014) and its chart-topping tracks <q>Shake It Off</q>, <q>Blank Space</q>, and <q>Bad Blood</q>. The media scrutiny on Swift's life inspired Reputation (2017), which drew from urban sounds. Led by <q>Look What You Made Me Do</q>, <strong><u>the album made Swift the only act in MRC Data history to have four albums each sell over a million copies in a week.</u></strong></p>
+            </section>
+            
+            <section>
+                <div class="about-text">
+                    <p><strong>Taylor Alison Swift</strong> (born December 13, 1989) is an American singer-songwriter. Her <a href="https://en.wikipedia.org/wiki/Taylor_Swift_albums_discography">discography</a> spans multiple genres, and her narrative songwriting—often inspired by her personal life—has received critical praise and widespread media coverage.<br> Born in West Reading, Pennsylvania, Swift relocated to Nashville, Tennessee, at the age of 14 to pursue a career in <a href="https://en.wikipedia.org/wiki/Country_music">country music</a>. She signed a songwriting contract with Sony/ATV Music Publishing in 2004 and a recording deal with Big Machine Records in 2005, before releasing her eponymous debut studio album in 2006.</p>
+                    <p>Swift explored <u>country pop</u> on the albums Fearless (2008) and Speak Now (2010); the success of the singles <q>Love Story</q> and <q>You Belong with Me</q> on both country and pop radio established her as a leading crossover artist. She experimented with rock and electronic genres on her fourth studio album, Red (2012), supported by the singles <q><i>We Are Never Ever Getting Back Together</i></q> and <q><i>I Knew You Were Trouble</i></q>. Swift eschewed country on her synth-pop album 1989 (2014) and its chart-topping tracks <q>Shake It Off</q>, <q>Blank Space</q>, and <q>Bad Blood</q>. The media scrutiny on Swift's life inspired Reputation (2017), which drew from urban sounds. Led by <q>Look What You Made Me Do</q>, <strong><u>the album made Swift the only act in MRC Data history to have four albums each sell over a million copies in a week.</u></strong></p>
+                </div>    
             </section>
         </div>
         
@@ -45,7 +51,7 @@
         </div>
 
         <div class="discography">
-            <section id="albums">
+            <section class="albums">
                 <h3>Her studio albums:</h3>
                 <ul>
                     <li>Evermore (2020)</li> 
@@ -68,29 +74,32 @@
         </div>
 
         <img src="https://i.chzbgr.com/full/8147222016/h6E8F62EE/taylor-swift-a-love-story">
-            
-        <h3>Do you want to join the newsletter?</h3>
 
-        <section id="user date">
-            <p>Please enter you data in the next form:</p>
-            
-            <div id="contact form">
+        <div class="join">
+            <section>
+                <h3>Do you want to join the newsletter?</h3>
+                <p>Please enter you data in the next form:</p>
+            </div>
+
+        <section>
+            <div class="contact form">
                 <form>
                     <label for="name">Your name:</label>
-                    <input type="text" name="Username"><br>
+                    <input class="input-border" placeholder="Your name"><br>
     
                     <label for="birthday">Enter your birthday:</label>
-                    <input type="date"><br>
+                    <input type="date" class="input-border"><br>
 
                     <label for="email">Please, give us an email:</label>
-                    <input type="email" name="txtEmail" placeholder="example@example.com"><br>
+                    <input type="email" name="txtEmail" class="input-border" placeholder="example@example.com"><br>
                     
                     <button ><span class="text">Send my info</span></button>
 
                 </form>
             </div>
-
-        <section id="footer">    
+        </section>
+        
+        <section class="footer">    
             <p><small><b>These 3 lines are in a footer</b></small></p>
             <p>Thank you for reading</p>
             <p><b>Developed by: Carolina</b></p>
